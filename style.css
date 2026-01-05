@@ -1321,10 +1321,10 @@ a[href^="tel"]{
 }
 
 /* NICK ADDITIONS */
-.center-iframe {
+.photo-frame {
   display: block;
-  margin: 0 auto;     /* center horizontally */
-  width: 4032px;       /* pick a fixed size */
-  height: 3024px;
-  border: none;
+  width: 600px;
+  height: 400px;
+  margin: 40px auto;
+  object-fit: contain;
 }
