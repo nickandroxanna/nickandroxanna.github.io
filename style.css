@@ -1324,7 +1324,7 @@ a[href^="tel"]{
 .center-iframe {
   display: block;
   margin: 0 auto;     /* center horizontally */
-  width: 600px;       /* pick a fixed size */
-  height: 400px;
+  width: 4032px;       /* pick a fixed size */
+  height: 3024px;
   border: none;
 }
