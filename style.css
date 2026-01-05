@@ -1332,7 +1332,7 @@ a[href^="tel"]{
 /* Image styling */
 .center-image {
   max-width: 100%;   /* fits inside container / screen */
-  width: 800px;      /* pick a width that looks good */
+  width: 1000px;      /* pick a width that looks good */
   height: auto;      /* keeps original aspect ratio */
   display: block;    /* removes inline spacing */
 }
