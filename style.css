@@ -1333,3 +1333,10 @@ a[href^="tel"]{
   max-height: none !important;
   object-fit: unset !important; */
 }
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+
+  width: 450px;     /* adjust this */
+  height: auto;     /* keeps aspect ratio */
