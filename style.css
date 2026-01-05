@@ -1321,20 +1321,25 @@ a[href^="tel"]{
 }
 
 /* NICK ADDITIONS */
-/* Wrapper keeps it centered like an iframe */
+/* Wrapper centers content like an iframe did */
 .media-wrapper {
   display: flex;
   justify-content: center; /* horizontal center */
-  align-items: center;     /* vertical center inside wrapper */
-  margin: 20px 0;          /* optional spacing above/below */
+  align-items: center;     /* vertical center inside wrapper (if wrapper has height) */
+  margin: 20px 0;          /* spacing above and below */
 }
 
 /* Image styling */
 .center-image {
-  max-width: 100%;   /* fits inside container / screen */
-  width: 1000px;      /* pick a width that looks good */
-  height: auto;      /* keeps original aspect ratio */
-  display: block;    /* removes inline spacing */
+  display: block;
+  max-width: 100%;          /* never overflow the container */
+  width: 800px;             /* adjust width to make it bigger or smaller */
+  height: auto;             /* keeps the aspect ratio */
+
+  border-radius: 15px;      /* soft rounded corners */
+  border: 2px solid #ddd;   /* light gray border */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* soft shadow for depth */
 }
+
 
 
