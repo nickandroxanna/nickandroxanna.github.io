@@ -1324,6 +1324,7 @@ a[href^="tel"]{
 #no-zoom {
   display: block;
   margin: 0 auto;
+  transform: scale(1.1); /* try 1.05–1.2 */
 
   /* hard reset */
   width: auto !important;
