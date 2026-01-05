@@ -1319,3 +1319,9 @@ a[href^="tel"]{
     color:inherit;
     text-decoration:none;
 }
+
+/* NICK ADDITIONS */
+.center-image {
+  display: block;
+  margin: 0 auto; /* centers horizontally */
+}
