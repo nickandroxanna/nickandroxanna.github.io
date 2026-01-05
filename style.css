@@ -1323,5 +1323,7 @@ a[href^="tel"]{
 /* NICK ADDITIONS */
 .center-image {
   display: block;
-  margin: 0 auto; /* centers horizontally */
+  margin: 0 auto;
+  max-width: 100%;   /* never grow bigger than its container */
+  height: auto;      /* keep aspect ratio */
 }
