@@ -1342,5 +1342,13 @@ a[href^="tel"]{
   display: block;
 }
 
+.location-page #location {
+    margin-top: -40px;
+}
+
+
+
+
+
 
 
